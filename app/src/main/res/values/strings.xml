@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">julyAcademy2</string>
+    <string name="july_academy">July Academy</string>
+    <string name="login">Login</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="don_t_hava_an_account_sign_up">Don\'t hava an account ? Sign Up</string>
+</resources>
