@@ -13,7 +13,7 @@ class RegistrationScreen : AppCompatActivity() {
         binding = ActivityRegistrationScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnRegister.setOnClickListener {
-         val intent =   Intent(this,MainActivity::class.java)
+         val intent =   Intent(this,CalculatorActivity::class.java)
             startActivity(intent)
             finish()
         }
