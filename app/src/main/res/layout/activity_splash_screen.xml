@@ -7,7 +7,7 @@
     android:background="#52C9FF"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".SplashScreen">
+    tools:context=".ui.SplashScreen">
     <TextView
         android:id="@+id/tvJulyAcademy"
         android:layout_width="wrap_content"

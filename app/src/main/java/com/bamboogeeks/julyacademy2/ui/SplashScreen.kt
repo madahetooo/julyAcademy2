@@ -1,9 +1,11 @@
-package com.bamboogeeks.julyacademy2
+package com.bamboogeeks.julyacademy2.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.bamboogeeks.julyacademy2.R
+import com.bamboogeeks.julyacademy2.auth.LoginScreen
 
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {
@@ -14,7 +16,7 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed({
             // Navigate from this class to Main Activity Class
-           val intent =  Intent(this,LoginScreen::class.java)
+           val intent =  Intent(this, LoginScreen::class.java)
             startActivity(intent)// launcher
             finish()     // Kill Splash Screen
         },4000)

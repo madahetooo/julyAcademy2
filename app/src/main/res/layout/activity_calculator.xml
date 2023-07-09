@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CalculatorActivity">
+    tools:context=".calculatorapp.CalculatorActivity">
 
     <ImageView
         android:id="@+id/ivCalculator"
@@ -105,9 +105,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAddition" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnResetValues"
         android:layout_width="0dp"
+        android:background="@color/orange"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"

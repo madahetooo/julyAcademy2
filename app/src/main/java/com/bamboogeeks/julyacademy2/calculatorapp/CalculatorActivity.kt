@@ -1,4 +1,4 @@
-package com.bamboogeeks.julyacademy2
+package com.bamboogeeks.julyacademy2.calculatorapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
