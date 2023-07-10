@@ -25,4 +25,20 @@
     <string name="add_a_todo">Add a Todo...</string>
     <string name="add">Add</string>
     <string name="item_todo">Item Todo</string>
+    <string name="calculator_app">Calculator App</string>
+    <string name="restaurant_app">Restaurant App</string>
+    <string name="todolist_app">TodoList App</string>
+    <string name="navigationdrawer_app">NavigationDrawer App</string>
+    <string name="kotlin_coroutines_app">Kotlin Coroutines App</string>
+    <string name="shoppingitem_app">ShoppingItem App</string>
+    <string name="todolist_api_app">Todolist Api App</string>
+    <string name="firebase_backend_app">Firebase Backend App</string>
+    <string name="unit_testing_app">Unit Testing App</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent_email">Sent Email</string>
+    <string name="drafts">Drafts</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="log_out">Log out</string>
 </resources>
