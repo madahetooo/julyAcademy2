@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.bamboogeeks.julyacademy2.R
 import com.bamboogeeks.julyacademy2.broadcastreceiver.BroadCastReceiverActivity
 import com.bamboogeeks.julyacademy2.calculatorapp.CalculatorActivity
+import com.bamboogeeks.julyacademy2.coroutineapp.CoroutineActivity
 import com.bamboogeeks.julyacademy2.databinding.ActivityMainBinding
 import com.bamboogeeks.julyacademy2.navigationdrawerapp.NavigationDrawerAppActivity
 import com.bamboogeeks.julyacademy2.notificationapp.NotificationActivity
@@ -41,6 +42,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnBroadCastReceiver.setOnClickListener {
             val intent = Intent(this, BroadCastReceiverActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnKotlinCoroutineApp.setOnClickListener {
+            val intent = Intent(this, CoroutineActivity::class.java)
             startActivity(intent)
         }
     }
