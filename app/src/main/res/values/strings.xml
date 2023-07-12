@@ -41,4 +41,7 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <string name="log_out">Log out</string>
+    <string name="notification_app">Notification App</string>
+    <string name="broadcast_receiver_app">BroadCast Receiver App</string>
+    <string name="show_notification">Show Notification</string>
 </resources>
