@@ -26,6 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/etEmailAddressLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -33,6 +34,7 @@
             android:inputType="textEmailAddress" />
 
         <EditText
+            android:id="@+id/etPasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -40,6 +42,7 @@
             android:inputType="textPassword" />
 
         <CheckBox
+            android:id="@+id/chkRememberMe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

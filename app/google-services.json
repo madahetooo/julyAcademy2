@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "24141208808",
+    "project_id": "julyacademy2",
+    "storage_bucket": "julyacademy2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24141208808:android:124919885c132a82ee3d5d",
+        "android_client_info": {
+          "package_name": "com.bamboogeeks.julyacademy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24141208808-hjuobskato9pjtk2q0ijcgva9vvbdqnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bamboogeeks.julyacademy2",
+            "certificate_hash": "07a9cc85752be9294a183a5479da6eaf3d82d2d1"
+          }
+        },
+        {
+          "client_id": "24141208808-p4lh6gm9sv76rjc89rbnpa1as94fno14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsZETwxRNhd3-OyPLdEFNAPq0hFgn4gQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24141208808-p4lh6gm9sv76rjc89rbnpa1as94fno14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
