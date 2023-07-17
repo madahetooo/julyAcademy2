@@ -44,4 +44,15 @@
     <string name="notification_app">Notification App</string>
     <string name="broadcast_receiver_app">BroadCast Receiver App</string>
     <string name="show_notification">Show Notification</string>
+    <string name="old_first_name">Old First Name</string>
+    <string name="old_last_name">Old Last Name</string>
+    <string name="new_first_name">New First Name</string>
+    <string name="new_last_name">New Last Name</string>
+    <string name="old_age">Old Age</string>
+    <string name="new_age">New Age</string>
+    <string name="save">Save</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="retrieved_data_from_firebase_firestore">Retrieved data from Firebase Firestore</string>
 </resources>
