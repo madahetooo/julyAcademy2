@@ -55,4 +55,7 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="retrieved_data_from_firebase_firestore">Retrieved data from Firebase Firestore</string>
+    <string name="firebase_storage_app">Firebase Storage App</string>
+    <string name="dowload">Dowload</string>
+    <string name="upload">Upload</string>
 </resources>

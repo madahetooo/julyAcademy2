@@ -8,6 +8,7 @@ import com.bamboogeeks.julyacademy2.broadcastreceiver.BroadCastReceiverActivity
 import com.bamboogeeks.julyacademy2.calculatorapp.CalculatorActivity
 import com.bamboogeeks.julyacademy2.coroutineapp.CoroutineActivity
 import com.bamboogeeks.julyacademy2.databinding.ActivityMainBinding
+import com.bamboogeeks.julyacademy2.firebasestorageapp.ui.FirebaseStorageApp
 import com.bamboogeeks.julyacademy2.firestoreapp.ui.FireStoreApp
 import com.bamboogeeks.julyacademy2.navigationdrawerapp.NavigationDrawerAppActivity
 import com.bamboogeeks.julyacademy2.notificationapp.NotificationActivity
@@ -51,6 +52,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnFirebaseApp.setOnClickListener {
             val intent = Intent(this, FireStoreApp::class.java)
+            startActivity(intent)
+        }
+        binding.btnFirebaseStorageApp.setOnClickListener {
+            val intent = Intent(this, FirebaseStorageApp::class.java)
             startActivity(intent)
         }
     }

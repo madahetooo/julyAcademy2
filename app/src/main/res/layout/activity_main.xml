@@ -78,12 +78,12 @@
             android:text="@string/shoppingitem_app" />
 
         <Button
-            android:id="@+id/btnTodolistApiApp"
+            android:id="@+id/btnFirebaseStorageApp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="@string/todolist_api_app" />
+            android:text="@string/firebase_storage_app" />
 
         <Button
             android:id="@+id/btnFirebaseApp"
